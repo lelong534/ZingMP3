@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void createMeia() {
-        mediaPlayer = MediaPlayer.create(MainActivity.this, songs.get(position).getFile();
+        mediaPlayer = MediaPlayer.create(MainActivity.this, songs.get(position).getFile());
     }
 
     private void addSong() {
